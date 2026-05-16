@@ -56,7 +56,7 @@ export default function Home() {
 
       <section className="relative h-screen overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2200&auto=format&fit=crop"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-k6y5Mhf32YUe2iTYCtRHeoUkkHYGTI.png"
           className="absolute inset-0 w-full h-full object-cover"
         />
 
