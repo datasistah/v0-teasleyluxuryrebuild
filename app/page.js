@@ -7,7 +7,7 @@ const services = [
   },
   {
     title: 'Bi-Weekly Lawn Maintenance',
-    image: '/20260514-mainntenntenpic.png',
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-luis-negron-260501657-13630739-kpzkGGYW5RjPmcdVFwgoBmjTyQnfHc.jpg',
     description: 'A reliable biweekly schedule for steady growth, seasonal feeding, and tidy lawn edges.'
   },
   {
