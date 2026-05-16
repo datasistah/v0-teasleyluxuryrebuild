@@ -12,7 +12,7 @@ const services = [
   },
   {
     title: 'Mulching',
-    image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=1600&auto=format&fit=crop',
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-bvShQRCZGG9NV0uEFU3wVefOJJV7yV.jpeg',
     description: 'Fresh mulch installation to protect plant roots, retain moisture, and give beds a polished landscape finish.'
   },
   {
