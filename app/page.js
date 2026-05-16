@@ -2,7 +2,7 @@
 const services = [
   {
     title: 'Weekly Lawn Maintenance',
-    image: 'https://images.pexels.com/photos/5502221/pexels-photo-5502221.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-Y6BFS4csWKHIFfeJ8Hadz6P4zO7v4O.jpeg',
     description: 'Weekly mowing, edging, and cleanup keep your lawn thick, healthy, and looking pristine every week.'
   },
   {
