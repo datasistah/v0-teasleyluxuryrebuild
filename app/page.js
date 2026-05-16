@@ -2,15 +2,28 @@
 const services = [
   {
     title: 'Weekly Lawn Maintenance',
-    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1600&auto=format&fit=crop'
+    image: 'https://images.pexels.com/photos/5502221/pexels-photo-5502221.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    description: 'Weekly mowing, edging, and cleanup keep your lawn thick, healthy, and looking pristine every week.'
   },
   {
     title: 'Bi-Weekly Lawn Maintenance',
-    image: 'https://images.unsplash.com/photo-1599685315640-1f2c0c8f3d3f?q=80&w=1600&auto=format&fit=crop'
+    image: '/20260514-mainntenntenpic.png',
+    description: 'A reliable biweekly schedule for steady growth, seasonal feeding, and tidy lawn edges.'
   },
   {
     title: 'Mulching',
-    image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=1600&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=1600&auto=format&fit=crop',
+    description: 'Fresh mulch installation to protect plant roots, retain moisture, and give beds a polished landscape finish.'
+  },
+  {
+    title: 'Planting',
+    image: 'https://images.pexels.com/photos/33012937/pexels-photo-33012937.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    description: 'Planting and installation services for flowers, shrubs, and ornamental plants to enhance curb appeal and support healthy landscapes.'
+  },
+  {
+    title: 'Maintenance Pruning',
+    image: 'https://images.pexels.com/photos/36713694/pexels-photo-36713694.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    description: 'Selective pruning for shrubs and small trees to improve health, shape growth, and keep your property neat.'
   }
 ]
 
@@ -100,7 +113,9 @@ export default function Home() {
                   <img src={service.image} className="w-full h-[360px] object-cover hover:scale-105 transition duration-700" />
                 </div>
 
-                <h3 className="font-serif text-4xl mb-5">{service.title}</h3>
+                <h3 className="font-serif text-4xl mb-4">{service.title}</h3>
+
+                <p className="text-[#4e6055] text-lg leading-relaxed mb-5">{service.description}</p>
 
                 <a href="#estimate" className="text-[#50685a] text-lg">
                   Learn more →
@@ -149,11 +164,6 @@ export default function Home() {
                   {service.title}
                 </label>
               ))}
-
-              <label className="border border-[#31453d] px-6 py-6 cursor-pointer hover:border-[#64786f] transition">
-                <input type="checkbox" name="services" value="Planting Services" className="mr-3" />
-                Planting Services
-              </label>
             </div>
 
             <input
